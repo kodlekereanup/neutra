@@ -1,2 +1,2 @@
-neutra:neutra.c
-	$(CC) neutra.c -o neutra -Wall -Wextra -pedantic -std=c99
+neutra : src/neutra.c
+	$(CC) src/neutra.c -o neutra -Wall -Wextra -pedantic -std=c99
